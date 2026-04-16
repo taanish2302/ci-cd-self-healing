@@ -1,0 +1,102 @@
+[
+  {
+    "error_log": "ModuleNotFoundError: No module named 'numpy'",
+    "failure_type": "dependency_error",
+    "fix": "pip install numpy"
+  },
+  {
+    "error_log": "ModuleNotFoundError: No module named 'pandas'",
+    "failure_type": "dependency_error",
+    "fix": "pip install pandas"
+  },
+  {
+    "error_log": "SyntaxError: EOL while scanning string literal",
+    "failure_type": "syntax_error",
+    "fix": "Fix missing closing quotes"
+  },
+  {
+    "error_log": "IndentationError: unexpected indent",
+    "failure_type": "syntax_error",
+    "fix": "Fix indentation"
+  },
+  {
+    "error_log": "NameError: name 'x' is not defined",
+    "failure_type": "code_error",
+    "fix": "Define variable before use"
+  },
+  {
+    "error_log": "TypeError: unsupported operand type(s) for +",
+    "failure_type": "type_error",
+    "fix": "Check variable types before operation"
+  },
+  {
+    "error_log": "AssertionError",
+    "failure_type": "test_failure",
+    "fix": "Correct the assertion condition"
+  },
+  {
+    "error_log": "ImportError: cannot import name 'xyz'",
+    "failure_type": "dependency_error",
+    "fix": "Check module name or install correct package"
+  },
+  {
+    "error_log": "FileNotFoundError: [Errno 2] No such file or directory",
+    "failure_type": "file_error",
+    "fix": "Ensure file path is correct"
+  },
+  {
+    "error_log": "ZeroDivisionError: division by zero",
+    "failure_type": "runtime_error",
+    "fix": "Avoid dividing by zero"
+  },
+  {
+    "error_log": "TimeoutError: process exceeded time limit",
+    "failure_type": "timeout",
+    "fix": "Optimize code or increase timeout"
+  },
+  {
+    "error_log": "PermissionError: [Errno 13] Permission denied",
+    "failure_type": "permission_error",
+    "fix": "Check file permissions"
+  },
+  {
+    "error_log": "ValueError: invalid literal for int()",
+    "failure_type": "value_error",
+    "fix": "Ensure correct data type conversion"
+  },
+  {
+    "error_log": "KeyError: 'username'",
+    "failure_type": "data_error",
+    "fix": "Check if key exists in dictionary"
+  },
+  {
+    "error_log": "IndexError: list index out of range",
+    "failure_type": "data_error",
+    "fix": "Check list length before accessing index"
+  },
+  {
+    "error_log": "ConnectionError: failed to connect to server",
+    "failure_type": "network_error",
+    "fix": "Check network or server availability"
+  },
+  {
+    "error_log": "OSError: [Errno 28] No space left on device",
+    "failure_type": "system_error",
+    "fix": "Free up disk space"
+  },
+  {
+    "error_log": "RuntimeError: maximum recursion depth exceeded",
+    "failure_type": "runtime_error",
+    "fix": "Check recursive function termination"
+  },
+  {
+    "error_log": "AttributeError: 'NoneType' object has no attribute",
+    "failure_type": "code_error",
+    "fix": "Ensure object is not None before accessing attributes"
+  },
+  {
+    "error_log": "ModuleNotFoundError: No module named 'requests'",
+    "failure_type": "dependency_error",
+    "fix": "pip install requests"
+  }
+]
