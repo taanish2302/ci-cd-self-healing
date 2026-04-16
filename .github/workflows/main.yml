@@ -11,3 +11,6 @@ jobs:
 
       - name: Run Python
         run: python main.py
+        
+      - name: Run Analyzer
+        run: python analyzer.py
