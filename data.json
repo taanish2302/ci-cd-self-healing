@@ -1,0 +1,7 @@
+[
+  {
+    "error_log": "ModuleNotFoundError: No module named 'numpy'",
+    "failure_type": "dependency_error",
+    "fix": "pip install numpy"
+  }
+]
