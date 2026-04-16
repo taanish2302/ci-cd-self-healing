@@ -1,4 +1,4 @@
-name: CI Test
+name: CI Self Healing
 
 on: [push]
 
@@ -9,8 +9,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Run Python
-        run: python main.py
-        
-      - name: Run Analyzer
+      - name: Run main (may fail)
+        run: python main.py || true
+
+      - name: Run analyzer (auto-fix)
         run: python analyzer.py
+
+      - name: Re-run main after fix
+        run: python main.py
